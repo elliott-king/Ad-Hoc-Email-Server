@@ -17,12 +17,12 @@ services:
     depends_on:
       - mongodb
     environment:
-      serverBaseUri: elliott-king-ad-hoc-email-server---master.dev.ship.surf
+      serverBaseUri: elliott-king-ad-hoc-email-server---master.dev.staging.shipyard.pizza
       mongoConnectUrl: mongodb://mongodb:27017/
       appListenPort: 3000
       smtpPort: 2525
       allowAutocomplete: "true"
-      allowedDomains: elliott-king-ad-hoc-email-server---master.dev.ship.surf
+      allowedDomains: elliott-king-ad-hoc-email-server---master.dev.staging.shipyard.pizza
       jwtSecret: AH3M 709 S3cR3T
 
   ahem:
@@ -44,12 +44,12 @@ services:
     depends_on:
       - mongodb
     environment:
-      serverBaseUri: elliott-king-ad-hoc-email-server---master.dev.ship.surf
+      serverBaseUri: elliott-king-ad-hoc-email-server---master.dev.staging.shipyard.pizza
       mongoConnectUrl: mongodb://mongodb:27017/
       appListenPort: 3000
       smtpPort: 2525
       allowAutocomplete: "true"
-      allowedDomains: elliott-king-ad-hoc-email-server---master.dev.ship.surf
+      allowedDomains: elliott-king-ad-hoc-email-server---master.dev.staging.shipyard.pizza
       jwtSecret: AH3M 709 S3cR3T
 
   mongodb:
